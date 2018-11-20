@@ -13,6 +13,7 @@ $(document).on('click', '#start-over', function(e) {
   game.reset();
 });
 
+
 $(document).on('click', '.answer-button', function(e) {
   game.clicked(e);
 });
@@ -34,7 +35,7 @@ var questions = [{
   question: 'How many (Main) Final Fantasy titles have been released?',
   answers: ['Twelve', 'Nine', 'Ten', "Fifteen",],
   correctAnswer: "Fifteen",
-  image:"Noctis_fight_gif.gif"
+  image:"./assets/images/Noctis_fight_gif.gif"
 }, {
   question: "Lead role / Main Chacater in FF-VIII??",
   answers: ["Snow", "Laguna", "Squall", "Cloud"],
